@@ -29,14 +29,11 @@ class RecursiveSolution:
             # Element is not present in the array
             return -1
 
-
-## Testing The Solution 
-test = RecursiveSolution()
-
-# Binary Search Test 
-index = test.binary_search([ 2, 3, 4, 10, 40 ], 0, 4, 10)
-result = "Found at index " + str(index) if index != -1 else "Not Found"
-print(result)
+## To test uncomment below ##
+# test = RecursiveSolution()
+# index = test.binary_search([ 2, 3, 4, 10, 40 ], 0, 4, 10)
+# result = "Found at index " + str(index) if index != -1 else "Not Found"
+# print(result)
     
     
     
